@@ -1,0 +1,36 @@
+{
+  "data": {"url": "data/cars.json"},
+  "marktype": "bar",
+  "encoding": {
+    "x": {"name": "Acceleration","type": "Q","bin": true},
+    "y": {
+      "name": "*",
+      "aggregate": "count",
+      "type": "Q",
+      "displayName": "Number of Records"
+    }
+  },
+  "config": {
+    "gridColor": "black",
+    "gridOpacity": 0.08,
+    "filterNull": {"O": false,"Q": true,"T": true},
+    "toggleSort": "Q",
+    "singleHeight": 200,
+    "singleWidth": 200,
+    "largeBandSize": 21,
+    "smallBandSize": 12,
+    "largeBandMaxCardinality": 10,
+    "cellPadding": 0.1,
+    "cellGridColor": "black",
+    "cellGridOpacity": 0.15,
+    "cellBackgroundColor": "transparent",
+    "textCellWidth": 90,
+    "strokeWidth": 2,
+    "singleBarOffset": 5,
+    "c10palette": "category10",
+    "c20palette": "category20",
+    "ordinalPalette": "BuGn",
+    "timeScaleLabelLength": 3,
+    "characterWidth": 6
+  }
+}
